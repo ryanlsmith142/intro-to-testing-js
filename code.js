@@ -27,12 +27,34 @@ function isEven(input) {
         return false;
     }
 }
-function sum(a, b) {
-    if(b === "sheep") {
+
+function isVowel(input) {
+    if (isNaN(input) === false) {
+        return false;
+    } else if(input === 'boolean') {
+        return false;
+    } else if ("aeiouAEIOU".indexOf(input) != -1) {
+        return true;
+    } else {
         return false;
     }
-    return a + b;
 }
 
+function add(a, b) {
+   if(isNumeric(a) && isNumeric(b)) {
+       return +a + +b;
+   } else if(value === "banana" || value === "split") {
+       return NaN;
+   } else {
+       return false;
+   }
+}
+
+
+function isNumeric(value) {
+    return !isNaN(parseFloat(value));
+}
+
+console.log(isNumeric('5'));
 
 //ON STEP 5!!!!
