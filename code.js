@@ -4,7 +4,7 @@ const helloWorld = function() {
 }
 
 function sayHello() {
-
+    return "";
 }
 function sum(a, b) {
     if(b === "sheep") {
