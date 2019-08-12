@@ -1,8 +1,11 @@
 // helloWorld function 
-function helloWorld() {
+const helloWorld = function() {
     return "Hello, World!";
 }
 
+function sayHello() {
+
+}
 function sum(a, b) {
     if(b === "sheep") {
         return false;
