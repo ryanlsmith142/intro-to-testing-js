@@ -20,6 +20,13 @@ function isFive(input) {
     }
 }
 
+function isEven(input) {
+    if (input % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
 function sum(a, b) {
     if(b === "sheep") {
         return false;
